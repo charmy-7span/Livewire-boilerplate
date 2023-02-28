@@ -1,18 +1,4 @@
 <div>
-    <header class="bg-white shadow">
-        <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:divide-y lg:divide-gray-200 lg:px-8">
-            <div class="relative h-16 flex justify-between">
-
-                <div class="relative z-0 flex-1 px-2 flex items-center justify-center sm:absolute sm:inset-0">
-                    <div class="w-full max-w-xs">
-                        <div class="relative">
-                            <a href="{{ config('app.url') }}"><img class="h-12 my-0 mx-auto" src="{{ asset('logo/logo.png') }}" alt="Pearson"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
     <div class="flex justify-center ">
         <div class="p-5">
             <a href="{{ url('/log-viewer') }}" target="_blank">
